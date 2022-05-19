@@ -1,0 +1,61 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+    background: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card{
+    background: grey;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.leash {
+    background-image: url(./img/leash.jpg);
+}
+.pets{
+    background: gray;
+}
+
+.pet{
+    float: left;
+    width: 250px;
+    clip-path: circle();
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    font-family: sans-serif;
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/** display: flex;
+    justify-content: center;
+    align-items: center; **/
